@@ -1,5 +1,5 @@
 # Trust-Based-Recommendation-Model
-The function calculates user-user similarity using:
+
 1.	Pearson Correlation Coefficient (PCC)
 Measures the strength of linear relationships between users.<br>
 2.	Distance Matrix 
