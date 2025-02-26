@@ -38,13 +38,10 @@ Identical Opinion Threshold : [0.4, 0.5, 0.2, 0.3]<br>
 In order to calculate Direct Trust, we check different conditions: <br>
 1.	If similarity score is higher than sval of an user(similarity_val >= sval), also If confidence score is higher than c_val of an user, If opinion score is higher than o_val of an user:<br>
 = (3 x similarity_val x confidence_val x opinion_val) / (similarity_val + confidence_val + opinion_val)<br>
-<br>
 Else If opinion score is not higher than opinion_val<br>
 =  (2 x similarity_val x confidence_val ) / (similarity_val + confidence_val )<br>
-<br>
 2.	If every score (similarity, identical opinion) is high, but confidence score is less than c_val<br>
 = (2 x similarity_val x opinion_val) / (similarity_val + opinion_val)<br>
-<br>
 3.	If everything is high(confidence, opinion), but the similarity score is not high than s_val<br>
 = (2 x confidence_val x opinion_val) / (confidence_val + opinion_val)<br><br>
 Propagate Trust<br>
