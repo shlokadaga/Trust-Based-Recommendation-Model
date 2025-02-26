@@ -11,16 +11,3 @@ Why do we need these functions?
 •	PCC – Measures correlation but ignores magnitude.
 •	Distance Matrix – Provides magnitude-based comparisons but do not consider directions of preference.
 This way, these both help balances both aspects.
-
-Example: 
-User’s rating for Movies (0 means user has not given any rating)
-	M1	M2	M3	M4
-User 1	5	3	0	0
-User 2	4	0	0	2
-User 3	0	3	4	0
-User 4	2	0	4	5
-
-Average Rating of User 1 = (5 + 3) / 2 = 4
-Average Rating of User 2 = (4 + 2) / 2 = 3
-
-Common Rated movie between User 1, User 2 – Item 01
