@@ -4,7 +4,7 @@ The function calculates user-user similarity using:
 Measures the strength of linear relationships between users.
 2.	Distance Matrix 
 Measure the distance between user ratings
-PCC : Gives strength of correlation.
+PCC : Gives strength of correlation. <br>
 Distance : Gives the magnitude difference.
 Why do we need these functions?
 •	Because, if 2 users have similar ratings, we can use one rating to predict the missing ratings of another user.
